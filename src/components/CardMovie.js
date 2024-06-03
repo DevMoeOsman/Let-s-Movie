@@ -9,10 +9,10 @@ const CardMovie = ({ mov }) => {
           <img src={`https://image.tmdb.org/t/p/w500/` + mov.poster_path} className="card__image" alt="hu" />
           <div className="card__overlay">
             <div className="overlay__text text-center w-100 p-2">
-              <p>اسم الفيلم : {mov.original_title}</p>
-              <p>تاريخ الاصدار:{mov.release_date}</p>
-              <p>عدد المقيمين: {mov.vote_count}</p>
-              <p>التقييم:{mov.vote_average} </p>
+              <p>Movie Name: {mov.original_title}</p>
+              <p>Release Date: {mov.release_date}</p>
+              <p>Votes: {mov.vote_count}</p>
+              <p>Rating: {mov.vote_average} </p>
             </div>
           </div>
         </div>
